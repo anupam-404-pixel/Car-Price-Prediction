@@ -53,13 +53,13 @@ MAE
 
 RMSE
 
-🧠 Key Steps in the Notebook
-1️⃣ Load Data
+ Key Steps in the Notebook
+1. Load Data
 import pandas as pd
 df = pd.read_csv("CarPrice_Assignment.csv")
 df.head()
 
-2️⃣ Clean Dataset
+2. Clean Dataset
 
 Remove duplicates
 
@@ -67,7 +67,7 @@ Handle missing values
 
 Convert categorical values
 
-3️⃣ Visualize Dataset
+3. Visualize Dataset
 
 Distribution plots
 
@@ -75,23 +75,21 @@ Correlation heatmap
 
 Brand-wise price comparison
 
-4️⃣ Split the Data
+4️. Split the Data
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-5️⃣ Train Model
-
-Example:
+5️. Train Model
 
 from sklearn.linear_model import LinearRegression
 lr = LinearRegression()
 lr.fit(X_train, y_train)
 
-6️⃣ Evaluate Model
+6. Evaluate Model
 from sklearn.metrics import r2_score
 r2_score(y_test, predictions)
 
-📈 Results
+ Results : 
 
 The final model is able to predict car prices based on engine features, brand, body style, and technical specifications.
 
@@ -106,17 +104,14 @@ Random Forest / XGBoost
 ▶️ How to Run the Project
 Option 1: Run in Google Colab
 
-Upload dataset
+ i.Upload dataset
 
-Upload notebook
+ii. Upload notebook
 
-Run all cells
+iii. Run all cells
 
-Option 2: Run Locally
-pip install -r requirements.txt
-jupyter notebook
 
-🙌 Author
+Author
 
 Anupam Maji
 Machine Learning Learner
