@@ -23,7 +23,7 @@ Model evaluation
 │── 📄 CarPrice_Assignment.csv
 │── 📄 notebook.ipynb
 │── 📄 README.md
-│── 📄 requirements.txt   (optional)
+
 
 🔧 Technologies Used
 
@@ -48,8 +48,6 @@ Explore dataset patterns
 Build a regression model to predict car prices
 
 Evaluate model performance using:
-
-R² Score
 
 MAE
 
