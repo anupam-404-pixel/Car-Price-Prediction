@@ -113,5 +113,5 @@ iii. Run all cells
 
 Author
 
-Anupam Maji
+Anupam Maji |
 Machine Learning Learner
